@@ -10,7 +10,7 @@ body {
 .header {
     width: 100vw;
     height: 100vh;
-    background: url('/img/hd-bg.jpg') no-repeat center;
+    background: url('img/hd-bg.jpg') no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .frst-meal {
-    background: url('/img/pht0.jpg') no-repeat center;
+    background: url('img/pht0.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     width: 350px;
@@ -156,7 +156,7 @@ body {
 }
 
 .scnd-meal {
-    background: url('/img/pht1.jpg') no-repeat center;
+    background: url('img/pht1.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     width: 350px;
@@ -209,7 +209,7 @@ body {
 }
 
 .thrd-meal {
-    background: url('/img/pht2.jpg') no-repeat center;
+    background: url('img/pht2.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     width: 350px;
@@ -262,7 +262,7 @@ body {
 }
 
 .frth-meal {
-    background: url('/img/pht3.jpg') no-repeat center;
+    background: url('img/pht3.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     width: 350px;
@@ -396,7 +396,7 @@ body {
 .menu {
     width: 100%;
     height: 600px;
-    background: url('/img/scbg.jpg') no-repeat center;
+    background: url('img/scbg.jpg') no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -513,7 +513,7 @@ body {
     position: absolute;
     top: 35px;
     right: 0;
-    background: url('/img/line.png');
+    background: url('img/line.png');
 } 
 
 .comments-title {
@@ -660,7 +660,7 @@ body {
 .email {
     width: 100%;
     height: 300px;
-    background: url('/img/ft-bg.jpg') no-repeat center;
+    background: url('img/ft-bg.jpg') no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -759,13 +759,13 @@ body {
 }
 
 .romb-con1::before {
-    background: url('/img/fb-icn.png') no-repeat center;
+    background: url('img/fb-icn.png') no-repeat center;
 }
 
 .romb-con2::before {
-    background: url('/img/twtr-icn.png') no-repeat center;
+    background: url('img/twtr-icn.png') no-repeat center;
 }
 
 .romb-con3::before {
-    background: url('/img/icn.png') no-repeat center;
+    background: url('img/icn.png') no-repeat center;
 }
