@@ -2,430 +2,199 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap&subset=cyrillic-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>RESTAURANT BY GODUN</title>
+    <link href="https://fonts.googleapis.com/css?family=Aleo:300,400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Landing</title>
 </head>
 <body>
     <header class="header">
-        <div class="nav-container"> 
-            <nav class="main-nav">
-                <img class="logo" src="/img/Logo.png" alt="Logo">
-                <ul class="site-navigation">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Servicing</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact us</a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/img/search.png" alt="Search">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="container-fluid">
+            <div class="row brgRow mr-auto">
+                <div class="col-lg-2">
+                    <img src="img/brg.png" alt="menu">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center logoRow">
+                <div class="col-lg-5 col-md-2">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </div>
+                <div class="w-100"></div>
+            <div class="row d-flex justify-content-center title-row">
+                <div class="col-lg-7">
+                    <h1 class="main-title">We Provide The Best Food<br> At The <span class="rp-color">Right Price</span></h1>
+                </div>
+            </div> 
         </div>
-        <div class="desc-container">
-            <div class="title-container">
-                <h1 class="main-title">Web development project</h1>
-                <p class="sub-title">Very suitable to support all web development projects</p>
-            </div>
-            <div class="btn-container">
-                <div class="first-btn-container">
-                    <a href="#">Our services</a>
-                </div>
-                <div class="second-btn-container">
-                    <a id="hire" href="#">Hire us now</a>
-                </div>
-            </div>
-            <div class="pointer">
-                <img  id="clickedPointer" src="/img/down-arrow.png" alt="Go below">
-            </div>
-        </div>  
     </header>
 
-    <section class="about">
-        <div class="about-container">
-            <div class="about-title-container">
-                <h2 class="about-title">About us</h2>
-                <p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </div>
-            <div class="about-functions">
-                <div class="about-functions-container">
-                    <img class="icon" src="/img/internet.png" alt="">
-                    <h3 class="about-functions-desc">Awesome Icons</h3>
-                    <p class="about-functions-desc-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                </div>     
-                <div class="about-functions-container">
-                    <img class="icon" src="/img/transfer.png" alt="">
-                    <h3 class="about-functions-desc">One Page</h3>
-                    <p class="about-functions-desc-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+    <section class="meals">
+        <div class="container-fluid">
+            <div class="row meals-row">
+                <div class="col-3 frst-meal d-flex flex-column">
+                    <a href="#" class="appearing-link appearing-link-1">Happy Hour</a>
+                    <a href="#" class="appearing-link appearing-link-2">Party Time</a>
+                    <h3 class="meals-title">Meals</h3>
                 </div>
-                <div class="about-functions-container">
-                    <img class="icon" src="/img/head.png" alt="">
-                    <h3 class="about-functions-desc">Fully responsive</h3>
-                    <p class="about-functions-desc-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                <div class="col-3 scnd-meal d-flex flex-column">
+                    <a href="#" class="appearing-link appearing-link-1">Happy Hour</a>
+                    <a href="#" class="appearing-link appearing-link-2">Party Time</a>
+                    <h3 class="meals-title">Breakfast</h3>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="services">
-        <div class="services-container">
-            <div class="title-desc-services-container">
-                <h2 class="services-title">Our Services</h2>
-                <p class="services-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </div>
-            <div class="inner-services-container">
-                <div class="inner-service">
-                    <img class="inner-image" src="/img/phone.png" alt="phone">
-                    <img class="inner-image-on" src="../img/whitephone.png" alt="phone">
-                    <h3 class="inner-title">Research</h3>
-                    <p class="inner-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-                    <a class="inner-btn" href="#">READ MORE</a>
+                <div class="col-3 thrd-meal d-flex flex-column">
+                    <a href="#" class="appearing-link appearing-link-1">Happy Hour</a>
+                    <a href="#" class="appearing-link appearing-link-2">Party Time</a>
+                    <h3 class="meals-title">Lunch</h3>
                 </div>
-                <div class="inner-service">
-                    <img class="inner-image" src="/img/phone.png" alt="phone">
-                    <img class="inner-image-on" src="/img/whitephone.png" alt="phone">
-                    <h3 class="inner-title">Portfolio</h3>
-                    <p class="inner-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-                    <a class="inner-btn" href="#">READ MORE</a>
-                </div>
-                <div class="inner-service">
-                    <img class="inner-image" src="/img/phone.png" alt="phone">
-                    <img class="inner-image-on" src="../img/whitephone.png" alt="phone">
-                    <h3 class="inner-title">Support</h3>
-                    <p class="inner-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-                    <a class="inner-btn" href="#">READ MORE</a>
-                </div>
-                <div class="inner-service">
-                    <img class="inner-image" src="/img/phone.png" alt="phone">
-                    <img class="inner-image-on" src="../img/whitephone.png" alt="phone">
-                    <h3 class="inner-title">Documentation</h3>
-                    <p class="inner-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-                    <a class="inner-btn" href="#">READ MORE</a>
-                </div>
-                <div class="inner-service">
-                    <img class="inner-image" src="/img/phone.png" alt="phone">
-                    <img class="inner-image-on" src="/img/whitephone.png" alt="phone">
-                    <h3 class="inner-title">Development</h3>
-                    <p class="inner-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-                    <a class="inner-btn" href="#">READ MORE</a>
-                </div>
-                <div class="inner-service">
-                    <img class="inner-image" src="../img/phone.png" alt="phone">
-                    <img class="inner-image-on" src="/img/whitephone.png" alt="phone">
-                    <h3 class="inner-title">Design</h3>
-                    <p class="inner-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-                    <a class="inner-btn" href="#">READ MORE</a>
+                <div class="col-3 frth-meal d-flex flex-column">
+                    <a href="#" class="appearing-link appearing-link-1">Happy Hour</a>
+                    <a href="#" class="appearing-link appearing-link-2">Party Time</a>
+                    <h3 class="meals-title">Dinner</h3>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="latest-works">
-        <div class="works-container">
-            <div class="works-title-desc-container">
-                <h2 class="works-title">Latest Works</h2>
-                <p class="works-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    <section class="food">
+        <div class="container food-container">
+            <div class="row food1-row">
+                <div class="col-12 d-flex">
+                    <div class="col-lg-6 food-img-con d-flex flex-column">
+                        <img src="img/ff.jpg" alt="">
+                        <img src="img/ff2.jpg" alt="">
+                    </div>
+                    <div class="col-lg-5 main-food-desc">
+                        <h2 class="food-title">Fast Food</h2>
+                        <h3 class="sub-title-food">You'll love our delicious food</h3>
+                        <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisic
+                            ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
+                            teur sint occaecat cupi datat non proident</p>
+                        <button class="glr-btn">view gallery<img class="inner-arw" src="img/arw.png"></button>
+                    </div>
+                </div>
             </div>
-            <div class="options-container">
-                <ul class="options-parent">
-                    <li class="options options-all">
-                        <a href="#" class="opt-link">All</a>
-                    </li>
-                    <li class="options">
-                        <a href="#" class="opt-link">Web Design</a>
-                    </li>
-                    <li class="options">
-                        <a href="#" class="opt-link">UI/UX Design</a>
-                    </li>
-                    <li class="options">
-                        <a href="#" class="opt-link">Mockups</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="options-images-container">
-                <ul class="images-container">
-                    <li> 
-                        <p class="img-desc">
-                            Hand watch <br />
-                           <span class="sub-img-desc">ui/ux design</span>
-                        </p>
-                         
-                        <img src="/img/watches.jpg" alt="wtch">
-                    </li>
-                    <li> 
-                        <p class="img-desc">
-                            Hand watch <br />
-                            <span class="sub-img-desc">ui/ux design</span>
-                        </p>
-                        <img src="/img/pocket.jpg" alt="pkt">
-                    </li>
-                    <li>
-                         <p class="img-desc">
-                            Hand watch <br />
-                            <span class="sub-img-desc">ui/ux design</span>
-                        </p>
-                        <img src="/img/merch.jpg" alt="mrch">
-                    </li>
-                    <li> 
-                        <p class="img-desc">
-                            Hand watch <br />
-                            <span class="sub-img-desc">ui/ux design</span>
-                        </p>
-                        <img src="/img/blackpocket.jpg" alt="pkt">
-                    </li>
-                    <li> 
-                        <p class="img-desc">
-                            Hand watch <br />
-                            <span class="sub-img-desc">ui/ux design</span>
-                        </p>
-                        <img src="/img/wine.jpg" alt="wine">
-                    </li>
-                    <li> 
-                        <p class="img-desc">
-                            Hand watch <br />
-                            <span class="sub-img-desc">ui/ux design</span>
-                        </p>
-                        <img src="/img/bag.jpg" alt="bg">
-                    </li>
-                </ul>
-                <div class="btn-view-cintainer">
-                    <a href="/">view all</a>
+            <div class="row food1-row food2-row">
+                <div class="col-12 d-flex flex-row-reverse">
+                    <div class="col-lg-6 food-img-con d-flex">
+                        <img src="img/drnks2.jpg" alt="">
+                        <img src="img/drnks.jpg" alt="">
+                    </div>
+                    <div class="col-lg-5 main-food-desc main-food-desc2">
+                        <h2 class="food-title">Drinks</h2>
+                        <h3 class="sub-title-food">We also produce delicious drinks</h3>
+                        <p class="food-desc">Lorem ipsum dolor sit amet, consectetur adipisic
+                            ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exce
+                            teur sint occaecat cupi datat non proident</p>
+                        <button class="glr-btn">view gallery<img class="inner-arw" src="img/arw.png"></button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="prices">
-        <div class="pricing-plan-container">
-            <div class="inner-pricing-plan-container">
-                <h2 class="pricing-plan-title">Pricing Plan</h2>
-                <p class="sub-pricing-plan-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-            </div>
-            <div class="prices-container">
-                <div class="prices-itself">
-                    <div class="prices-itself-title-container">
-                        <h3 class="prices-title">Free Trial</h3>
-                        <p class="primary-prices"><span class="price-container">00</span> per month</p>
+    <section class="menu">
+        <div class="container d-flex align-items-center menu-container">
+            <div class="row menu-row">
+                <div class="col-12 menu-wrap">
+                    <div class="d-flex justigy-content-center h-menu-container">
+                        <h3 id="frst-ff-menu" class="col-3 ff-menu-active align-self-center">Fast Food</h3>
+                        <h3 id="scnd-ff-menu" class="col-3 ff-menu align-self-center">Drinks</h3>
+                        <h3 id="thrd-ff-menu" class="col-3 ff-menu align-self-center">Chicken</h3>
+                        <h3 id="frth-ff-menu" class="col-3 ff-menu align-self-center">Rice</h3>
                     </div>
-                    <div class="offer-container">
-                        <p class="offer-itself">30 Free Trail</p>
-                        <p class="offer-itself">5 Free Projects</p>
-                        <p class="offer-itself">PHP 5 Enabled</p>
-                        <p class="offer-itself">24/7 Supports</p>
-                        <a href="#" class="order-price">Order now</a>
-                    </div>
-                </div>
-                <div class="prices-itself">
-                    <div class="prices-itself-title-container">
-                        <h3 class="prices-title">Basic</h3>
-                        <p class="primary-prices"><span class="price-container">50</span> per month</p>
-                    </div>
-                    <div class="offer-container">
-                        <p class="offer-itself">30 Free Trail</p>
-                        <p class="offer-itself">5 Free Projects</p>
-                        <p class="offer-itself">PHP 5 Enabled</p>
-                        <p class="offer-itself">24/7 Supports</p>
-                        <a href="#" class="order-price">Order now</a>
-                    </div>
-                </div>
-                <div class="prices-itself">
-                    <div class="prices-itself-title-container">
-                        <h3 class="prices-title">Ultimates</h3>
-                        <p class="primary-prices"><span class="price-container">99</span> per month</p>
-                    </div>
-                    <div class="offer-container">
-                        <p class="offer-itself">30 Free Trail</p>
-                        <p class="offer-itself">5 Free Projects</p>
-                        <p class="offer-itself">PHP 5 Enabled</p>
-                        <p class="offer-itself">24/7 Supports</p>
-                        <a href="#" class="order-price">Order now</a>
-                    </div>
-                </div>
-            </div>   
-        </div>
-    </section>
-
-    <section class="team">
-        <div class="team-container">
-            <div class="team-title-container">
-                <h2 class="team-title">Our Team Member</h2>
-                <p class="sub-team-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-            </div>
-            <div class="developers">
-                <div class="developers-container">
-
-                    <div class="pht-dev-container">
-                        <img src="/img/1dev.jpg" alt="">
-                    </div>
-
-                    <div class="selves-desc-container">
-                        <h3 class="developers-selves">John Doe</h3>
-                        <p class="dev-desc">General manager</p>
-
-                        <div class="social-media">
-                            <a href="#" class="social"><img class="media1" src="/img/fb.png" alt=""><img class="invis-media1" src="/img/whtfb.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/twtr.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/msg.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/ball.png" alt=""></a>
+                    <div class="col-12 d-flex slider-container justify-content-center">
+                        <img id="arw-1" class="align-self-center arw-l" src="img/arw-left.png" alt="">
+                        <div class="col-4 img-desc-con d-flex justify-content-center flex-column align-items-center">
+                            <img class="align-self-center cr-pht-1" src="img/cr-pht1.jpg" alt="" width="280" height="220">
+                            <p class="img-desc">Chicken burger</p>
                         </div>
-                    </div>
-                </div>
-
-                <div class="developers-container">
-                    <div class="pht-dev-container">
-                        <img src="/img/2dev.jpg" alt="">
-                    </div>
-
-                    <div class="selves-desc-container">
-                        <h3 class="developers-selves"> Alex Biru</h3>
-                        <p class="dev-desc">Office director</p>
-
-                        <div class="social-media">
-                            <a href="#" class="social"><img class="media1" src="/img/fb.png" alt=""><img class="invis-media1" src="/img/whtfb.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/twtr.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/msg.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/ball.png" alt=""></a>
+                        <div class="col-4 img-desc-con d-flex justify-content-center flex-column align-items-center">
+                            <img class="align-self-center cr-pht-1" width="280" src="img/cr-pht2.jpg" alt="" width="280"height="220">
+                            <p class="img-desc">Beef burger</p>
                         </div>
-                    </div>
-                </div>
-
-                <div class="developers-container">
-                    <div class="pht-dev-container">
-                        <img src="/img/3dev.jpg" alt="">
-                    </div>
-
-                    <div class="selves-desc-container">
-                        <h3 class="developers-selves">Ronobir Sing</h3>
-                        <p class="dev-desc">Admin</p>
-
-                        <div class="social-media">
-                            <a href="#" class="social"><img class="media1" src="/img/fb.png" alt=""><img class="invis-media1" src="/img/whtfb.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/twtr.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/msg.png" alt=""></a>
-                            <a href="#" class="social"><img src="/img/ball.png" alt=""></a>
+                        <div class="col-4 img-desc-con d-flex justify-content-center flex-column align-items-center">
+                            <img class="align-self-center cr-pht-1" src="img/pz.jpg" alt="" height="220" width="280">
+                            <p class="img-desc">Chicken pizza</p>
                         </div>
+                        <img class="align-self-center arw-r" src="img/arw-right.png" alt="">
                     </div>
-                </div>
-            </div>
-            
-            <div class="slider-container">
-                <img class="slider" src="/img/ecl1.png" alt="">
-                <img class="slider" src="/img/ecl.png" alt="">
-                <img class="slider" src="/img/ecl.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section class="blog">
-        <div class="blog-container">
-            <div class="blog-title-container">
-                <h2 class="blog-title">Blog</h2>
-                <p class="sub-blog-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-            </div>
-            <div class="seo-container">
-                <div class="seo">
-                    <img src="/img/seo1.jpg" alt="">
-                    <div class="txt-con">
-                        <h3 class="txt-ttl">SEO Quiz Vestibulum</h3>
-                        <div class="inner-txt-con">
-                            <p class="dt-dev dt-dev-1">12.07.2019</p>
-                            <p class="dt-dev dt-dev-2">Development</p>
-                        </div>
-                        <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
-                    </div>
-                </div>
-                <div class="seo-2">
-                    <img src="/img/seo2.jpg" alt="">
-                    <div class="txt-con">
-                        <h3 class="txt-ttl">SEO Quiz Vestibulum</h3>
-                        <div class="inner-txt-con">
-                            <p class="dt-dev dt-dev-1">12.07.2019</p>
-                            <p class="dt-dev dt-dev-2">Development</p>
-                        </div>
-                        <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
-                    </div>
-                </div>
-                <div class="seo">
-                    <img src="/img/seo3.jpg" alt="">
-                    <div class="txt-con">
-                        <h3 class="txt-ttl">SEO Quiz Vestibulum</h3>
-                        <div class="inner-txt-con">
-                            <p class="dt-dev dt-dev-1">12.07.2019</p>
-                            <p class="dt-dev dt-dev-2">Development</p>
-                        </div>
-                        <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
-                    </div>
-                </div>
-                <div class="btn-view-con">
-                    <button class="view-btn">More view</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contacts">
-        <div class="contacts-container">
-            <div class="title-contacts-container">
-                <h2>Contact Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-            </div>
-            <div class="form-mail-container">
-                <div class="mail-container">
-                    <div class="inner-mail-container">
-                        <div class="img-mail-container-1">
-                            <img class="frst-mail" src="/img/ecl2.png" alt="">
-                        </div>
-                        <p>Nobinagar savar, Dhaka Bangladesh</p>
-                    </div>
-                    <div class="inner-mail-container">
-                        <div class="img-mail-container-2">
-                            <img class="scnd-mail" src="/img/ecl2.png" alt="">
-                        </div>
-                        <p>+8801743331996</p>
-                        <p class="sub-mail">+8801928737807</p>
-                    </div>
-                    <div class="inner-mail-container">  
-                        <div class="img-mail-container-3">
-                            <img class="thrd-mail" src="/img/ecl2.png" alt="">
-                        </div>
-                        <p>quickmasud@gmail.com</p>
-                        <p class="sub-mail">quickmasud@yahoo.com</p>
-                    </div>  
+    <section class="comments">
+        <div class="container comments-contaier">
+            <div class="col-12 row comments-row d-flex">
+                <div class="col-7 d-flex flex-column inner-comments-container">
+                    <h2 class="comments-title">Our happy customers</h2>
+                    <h3 class="comments-person">Georgy Richard</h3>
+                    <p class="comments-txt">Great food! Menu is awesome, there foods are not only great but also in the right price. I’ll highly recommend them :) </p>
+
                 </div>
-                <div class="form-container">
-                    <form class="form-itself" action="" method="GET">
-                        <input id="userName1" class="userName" type="text" name="usersName" placeholder="Your NAME" required>
-                        <input id="userEmail1" class="userEmail" type="email" name="usersEmail" placeholder="Your Email" required>
-                        <textarea id="userMsg1" class="userMsg" type="text" name="usersMsg" placeholder="Write Message"></textarea>
-                        <input class="sendBtn" type="submit" value="Send">
+                <div class="col-5 d-flex flex-column about-menu">
+                    <h2 class="about-title">About menu</h2>
+                    <p class="about-desc">We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos
+                        trudexer ci tation ullamcorper suscipit lob
+                        ortis nisl ut aliquip ex ea commodo conse
+                        quat. Duisau tem vel eum iriure dolor in.</p>
+                </div>
+                <div class="col-3 d-flex justify-content-between persons-container">
+                    <img id="prev-person" class="arw1" src="img/arw-left.png" alt="" height="25">
+                    <div class="persons d-flex align-items-center justify-content-between">
+                        <div id="frst-con" class="prs-con">
+                            <img id="frst-person" class="prs-itself" src="img/prs1.jpg" alt="">
+                        </div>
+                        <div id="scnd-con" class="prs-con prs-con-primary1">
+                            <img id="scnd-person" class="prs-itself" src="img/prs2.jpg" alt="">
+                        </div>
+                        <div id="thrd-con" class="prs-con">
+                            <img id="thrd-person" class="prs-itself" src="img/prs3.jpg" alt="">
+                        </div>
+                    </div>
+                    <img id="nxt-person" class="arw2" src="img/arw-right.png" alt="" height="25">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="email">
+        <div class="container email-container">
+            <div class="row email-row d-flex justify-content-center">
+                <div class="col-8 d-flex flex-column align-items-center align-content-center">
+                    <h2 class="email-title">Get our daily food items delivered to your email</h2>
+                    <form class="d-flex email-form justify-content-between" action="" method="GET">
+                        <input class="col-7 email-field" type="email" placeholder="Your email" required>
+                        <input class="col-4 send-btn" type="submit" value="Subscribe">
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <footer class="footer">
-        <div class="main-footer">
-            <img src="/img/ftr.png" alt="">
+        <div class="container d-flex footer-container justify-content-center">
+            <div class="row d-flex footer-row">
+                <div class="col-11 d-flex flex-wrap footer-wrap align-items-center justify-content-center justify-content-around">
+                    <img src="img/brg-icn.png" alt="" height="40">
+                    <h2 class="footer-title">MENU</h2>
+                    <p class="footer-sub">Thats What We Are</p>
+                    <div class="romb-con romb-con1">
+                        <img src="img/romb.png" alt="">
+                    </div>
+                    <div class="romb-con romb-con2">
+                        <img src="img/romb.png" alt="">
+                    </div>
+                    <div class="romb-con romb-con3">
+                        <img src="img/romb.png" alt="">
+                    </div>
+
+                    <img src="img/footer.png" alt="">
+                </div>
+            </div>
         </div>
     </footer>
 
