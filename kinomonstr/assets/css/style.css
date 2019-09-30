@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(106,56,255,.25);
+}
+
+hr {
+    color: #000;
+    margin-top: 3em;
+    margin-left: -2em;
+    border: 1px solid #6a38ff;
+    width: 37.49em;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+    color: #5d5d5d;
+    width: 60%;
+    padding: 9px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="search"]:focus {
+    border-color: #6a38ff;
+}
+
+.header {
+    min-height: 200px;
+    min-width: 900px;
+    background: #6a38ff;
+}
+
+.logo {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo h1, .logo h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.logo h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.logo h2 {
+    color: #ccc;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.to-main-page {
+    text-decoration: none;
+    color: #fff;
+}
+
+.to-main-page:hover {
+    color: #ccc;
+    transition: all .1s linear;
+}
+
+.menubar {
+   height: 100px;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu li {
+    width: 100%;
+    list-style: none;
+}
+
+.menu li:hover a {
+    background: rgba(0,0,0,.06);
+    transition: .2s linear;
+    color: #ccc;
+}
+
+.menu .selected a {
+    color: #ccc;
+}
+
+.menu li a {
+    letter-spacing: .06em;
+    text-align: center;
+    padding: .7em;
+    font-family: 'trebuchet ms', sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    display: block;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    overflow: hidden; /* скрыть контент который выходит зп рпмки заданного размера */
+}
+
+.sidebar_container {
+    margin-right: .5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    margin-top: 1em;
+    padding: 7%;
+    width: 220px;
+    text-align: center;
+    background: #6a38ff;
+    border-radius: 5px;
+}
+
+.sidebar h2 {
+    font-family: 'trebuchet ms', sans-serif;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.btn {
+    font-size: 1em;
+    font-family: 'trebuchet ms', sans-serif;
+    border: none;
+    padding: 9px;
+    background: #ccc;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input {
+    font-family: 'trebuchet ms', sans-serif;
+    background: #ccc;
+    color: #6a38ff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.login-btn, .password-inpt {
+    margin-top: .7em;
+}
+
+.labels_passreg_text {
+    margin-top: .9em;
+}
+
+.reg_or_pass {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'trebuchet ms', sans-serif;
+    font-weight: bold;
+}
+
+.reg_or_pass:hover {
+    text-decoration: underline;
+    outline: none;
+}
+
+.symb {
+    font-family: 'trebuchet ms', sans-serif;
+    color: #fff;
+}
+
+.cur-date {
+    font-family: 'trebuchet ms', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+.news-1 {
+    font-family: 'trebuchet ms', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin-top: .5em;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.sidebar ul li a {
+    font-size: 1.1em;
+    color: #fff;
+    font-family: 'trebuchet ms', sans-serif;
+    font-weight: bold;
+}
+
+.sidebar ul li span,  .sidebar ul li {
+    font-size: 1.1em;
+    margin-top: .5em;
+    margin-left: 1em;
+    color: #fff;
+    font-family: 'trebuchet ms', sans-serif;
+    font-weight: bold;
+}
+
+.main-content {
+    width: 620px;
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+}
+
+.main-content h2 {
+    font-family: 'trebuchet ms', sans-serif;
+    color: #6a38ff;
+    font-size: 2em;
+    margin-top: .3em;
+}
+
+.main-content .ttl-mv {
+    margin-top: 2em;
+}
+
+.main-content a {
+    text-decoration: none;
+    font-family: 'trebuchet ms', sans-serif;
+}
+
+.main-content img {
+    width: 168px;
+    margin-top: 1em;
+    margin-right: 2em;
+    border: 2px solid #6a38ff;
+}
+
+.main-content img:hover {
+    transition: .2s linear;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 3px #6a38ff;
+}
+
+.films_block {
+    display: flex;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container {
+    margin-top: 1em;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    margin-top: 1.3em;
+    font-family: 'trebuchet ms', sans-serif;
+    font-weight: bold;
+    color: #6a38ff;
+}
+
+.text-container .read-link {
+    margin-top: 1em;
+    font-family: 'trebuchet ms', sans-serif;
+    color: #6a38ff;
+}
+
+.text-container .read-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.info_film_page {
+    display: flex;
+}
+
+.info_film_page .label {
+    color: #6a38ff;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 1em;
+    font-family: 'trebuchet ms', sans-serif;
+    margin-right: .3em;
+}
+
+.info_film_page .value {
+    color: #6a38ff;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 1em;
+    font-family: 'trebuchet ms', sans-serif;
+    margin-right: .9em;
+}
+
+.info_film_page ~ h2 {
+    margin-top: 1em;
+}
+
+.film-desc {
+    margin-top: 1em;
+    display: flex;
+}
+
+.film-desc p {
+    margin-left: -1em;
+    margin-top: 1.1em;
+    color: #6a38ff;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'trebuchet ms', sans-serif;
+}
+
+.film-desc img:hover {
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.reviews {
+    margin-top: 1.4em;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews .reviews_name {
+    padding: .4em;
+    font-size: 1.3em;
+    font-family: 'trebuchet ms', sans-serif;
+    color: #fff;
+    background: rgba(106,56,255,.8);
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.reviews .reviews_text {
+    padding: .4em;
+    margin-top: -1.5em;
+    z-index: -1;
+    padding-top: 2.3em;
+    height: 2em;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'trebuchet ms', sans-serif;
+    color: #fff;
+    background: #ccc;
+    color: rgba(106,56,255,.8);
+}
+
+.reviews .reviews_text-1 {
+    padding: .4em;
+    padding-top: 2em;
+    margin-top: -1.5em;
+    z-index: -1;
+    height: 6em;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'trebuchet ms', sans-serif;
+    color: #fff;
+    background: #ccc;
+    color: rgba(106,56,255,.8);
+}
+
+.send {
+    margin-top: 2em;
+    margin-bottom: 4%;
+}
+
+.send-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-form input[type="text"], textarea {
+    margin-bottom: 2%;
+}
+
+.send-form input[type="text"] {
+    color: #6a38ff;
+    font-family: 'trebuchet ms', sans-serif;
+    font-weight: bold;
+    background: #aaa;
+    width: 97%;
+}
+
+.send-form input[type="submit"] {
+    background: #aaa;
+}
+
+.send-form textarea {
+    color: #6a38ff;
+    font-family: 'trebuchet ms', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.contacts {
+    margin-bottom: 4%;
+}
+
+.contacts-form {
+    margin-top: 1.8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-form input {
+    background: #aaa;
+    font-family: 'trebuchet ms', sans-serif;
+    font-weight: bold;
+    color: #6a38ff;
+    padding: 9px;
+    width: 90%;
+}
+
+.contacts-form input[type="submit"] {
+    width: 93%;
+    color: #fff;
+}
+ 
+.contacts-form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.contacts-form textarea {
+    width: 93%;
+    color: #6a38ff;
+    font-family: 'trebuchet ms', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.contacts p {
+    color: #6a38ff;
+    font-size: 1.3em;
+    margin-top: 1em;
+    font-family: 'trebuchet ms', sans-serif;
+}
+
+.info-film {
+    margin-top: 2em;
+    background: rgba(106,56,255,.8);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    height: 230px;
+    width: 560px;
+}
+
+.info-film p {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'trebuchet ms', sans-serif;
+    margin-left: -1em;
+}
+
+.info-film img {
+    margin-top: 2px;
+}
+
+.info-film img:hover {
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.info-film .button a {
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'trebuchet ms', sans-serif;
+    padding: .5em;
+    background: #aaa;
+    line-height: 240px;
+}
+
+.rating {
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    margin-right: 2em;
+    display: flex;
+    font-family: 'trebuchet ms',sans-serif;
+    flex-direction: column;
+    background: rgba(106,56,255,.3);
+    border-radius: 6px;
+}
+
+.rating p {
+    margin-top: 1em;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.rating .rating-w {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #6a38ff;
+    margin-top: .7em;
+}
+
+.rating h4 {
+    font-size: 1.4em;
+    margin-top: 1em;
+    font-weight: bold;
+    color: #6a38ff;
+}
+
+.rating h2 {
+    font-size: 3em;
+}
+
+.rating h3 {
+    text-decoration: underline;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #6a38ff;
+    margin-top: 2em;
+}
+
+.footer {
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #6a38ff;
+    min-width: 900px; /* минимальная ширина сначит что когда размер экрана достагиает 900 пикслей ширина контента не уменьшается а остается прежней и скрывается за экраном */
+    height: 100px;
+}
+
+.footer a,  .footer p{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'trebuchet ms',sans-serif;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+/* Mobile */
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px) {
+
+    .header {
+        background: #6a38ff;
+        min-width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+
+    .logo {
+        padding-top: 3%;
+        width: 100%;
+    }
+
+    .logo h1 {
+        font-size: 300%;
+    }
+
+    .logo h2 {
+        font-size: 130%;
+    }
+
+    .content {
+        width: 100%;
+    }
+    
+    .menubar {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-content h2 {
+        text-align: center;
+        font-size: 230%;
+        margin-bottom: 4%;
+    }
+
+    .films_block {
+        flex-direction: column;
+    }
+
+    .films_block img {
+        margin-bottom: 4%;
+        margin-left: 7%;
+        width: 60%;
+    }
+
+    .text-container p {
+        padding: 4%;
+        text-align: left;
+        line-height: 130%;
+        font-size: 150%;
+    }
+
+    .sidebar_container {
+        display: none;
+    }
+
+    .menu {
+        margin-top: 4%;
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .info-film {
+        margin: 0 auto;
+        margin-bottom: 15%;
+        width: 60%;
+        height: 26%;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .info-film img {
+        margin: 0 auto;
+    }
+
+    .info-film p {
+        padding-top: 10%;
+        margin: 0 auto;
+    }
+
+    .info-film .button {
+        margin-top: -30%;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+

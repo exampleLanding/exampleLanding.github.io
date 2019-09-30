@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Киномонстр - крупнейший кинопортал о кино"> <!-- Описание создается для поисковых страниц и отображается снизу заголовка -->
+    <meta name="keywords" content="фильмы, фильмы онлайн, фильмы в hd">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kinomonstr</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <h1 class="main-logo">
+                    <a class="to-main-page" href="/">КиноМонстр</a>
+                </h1>
+                <h2 class="logo-desc">Кино - наша страсть!</h2>
+            </div>
+
+            <div class="menubar">
+                <ul class="menu">
+                    <li class="selected">
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="films.html">Фильмы</a>
+                    </li>
+                    <li>
+                        <a href="#">Сериалы</a>
+                    </li>
+                    <li>
+                        <a href="rating.html">Рейтинг фильмов</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="sidebar_container">
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="post" action="#" id="search_form">
+                        <input type="search" name="movie_search_field" placeholder="Ваш запрос"><br>
+                        <input type="submit" class="btn login-btn" value="Найти">
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                        <form method="post" action="#" id="login">
+                            <input type="text" name="login_field" placeholder="Введите логин">
+                            <input type="password" class="password-inpt" name="password_field" placeholder="Введите пароль"><br>
+                            <input type="submit" class="btn login-btn" value="Вход">
+                            <div class="labels_passreg_text">
+                               <a class="reg_or_pass" href="#">Забыли пароль?</a><a class="reg_or_pass" href="#"> Регистрация</a>
+                            </div>
+                        </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span class="cur-date">26.09.2019</span>
+                    <p class="news-1">Мы запустили расширенный поиск!</p><br>
+                    <a class="reg_or_pass news-link" href="#">Читать</a>
+                </div>
+                <div class="sidebar">
+                    <h2>Рейтинг фильмов</h2>
+                    <ul>
+                        <li>
+                            <a href="rating.html">Интерстеллар</a><span class="rating_sidebar">8.1</span>
+                        </li>
+                        <li><a href="rating.html">Матрица</a><span class="rating_sidebar">8.0</span>
+                        </li>
+                        <li><a href="rating.html">Безумный Макс</a><span class="rating_sidebar">7.5</span>
+                        </li>
+                        <li><a href="#">Дедпул</a><span class="rating_sidebar">7.2</span>
+                        </li>
+                    </ul>
+                </div>          
+            </div>
+
+            <section class="main-content">
+                <h2>Новые фильмы</h2>
+                <div class="films_block">
+                    <a href="#"><img src="assets/img/matrix.png" alt=""></a>
+                    <a href="#"><img src="assets/img/max.png" alt=""></a>
+                    <a href="show.html"><img src="assets/img/inter.png" alt=""></a>
+                </div>
+
+                <h2 class="ttl-mv">Новые сериалы</h2>
+                <div class="films_block">
+                    <a href="#"><img src="assets/img/dead.png" alt=""></a>
+                    <a href="#"><img src="assets/img/silicon.png" alt=""></a>
+                    <a href="#"><img src="assets/img/breakingbad.png" alt=""></a>
+                </div>
+                <div class="posts">
+                    <hr>
+                    <div class="text-container">
+                        <h2><a href="#">Как снимали интерстеллар</a></h2>
+                        <p>
+                            45 лет исполнилось Кристоферу Нолану — одному из самых успешных режиссеров нашего времени, чьи работы одинаково любимы как взыскательными критиками, так и простыми зрителями.
+                        </p>
+                        <p class="read-link"><a href="#">Читать</a></p>
+                    </div>
+                    <hr>
+                    <div class="text-container">
+                        <h2><a href="#">Актер Том Хэнкс поделился впечатлением о фестивале</a></h2>
+                        <p>
+                            16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской киноакадемии. Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли, Кейт Бланшетт, Хелен Миррен, Эми Адамс, Кристиан Бэйл, Альфонсо Куарон и другие гости и победители премии — в нашем репортаже.
+                        </p>
+                        <p class="read-link"><a href="#">Читать</a></p>
+                    </div>
+                    <hr>
+                    <div class="text-container">
+                        <h2><a href="#">Том Хэнкс получит почетный "Золотой глобус"</a></h2>
+                        <p>
+                            Голливудская ассоциация иностранной прессы объявила первого лауреата премии "Золотой глобус" за 2019 год. Им стал популярный голливудский актер Том Хэнкс, заслуги которого будут отмечены почетной наградой имени Сесила Б. ДеМилля.
+                        </p>
+                        <p class="read-link"><a href="#">Читать</a></p>
+                    </div>
+                </div>
+                
+            </section>
+
+            
+        </div>
+
+        
+        <footer class="footer">
+            <p>
+                <a href="#">Главная</a><span class="symb">|</span>
+                <a href="#">Фильмы</a><span class="symb">|</span>
+                <a href="#">Сериалы</a><span class="symb">|</span>
+                <a href="#">Рейтинг фильмов</a><span class="symb">|</span>
+                <a href="#">Контакты</a>
+            </p>
+            <p>kinomonstr.com 2015</p>
+        </footer>
+    </div>
+
+</body>
+</html>

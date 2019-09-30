@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Киномонстр - крупнейший кинопортал о кино"> <!-- Описание создается для поисковых страниц и отображается снизу заголовка -->
+    <meta name="keywords" content="фильмы, фильмы онлайн, фильмы в hd">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kinomonstr</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <h1 class="main-logo">
+                    <a class="to-main-page" href="/">КиноМонстр</a>
+                </h1>
+                <h2 class="logo-desc">Кино - наша страсть!</h2>
+            </div>
+
+            <div class="menubar">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li class="selected">
+                        <a href="films.html">Фильмы</a>
+                    </li>
+                    <li>
+                        <a href="#">Сериалы</a>
+                    </li>
+                    <li>
+                        <a href="rating.html">Рейтинг фильмов</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="sidebar_container">
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="post" action="#" id="search_form">
+                        <input type="search" name="movie_search_field" placeholder="Ваш запрос"><br>
+                        <input type="submit" class="btn login-btn" value="Найти">
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                        <form method="post" action="#" id="login">
+                            <input type="text" name="login_field" placeholder="Введите логин">
+                            <input type="password" class="password-inpt" name="password_field" placeholder="Введите пароль"><br>
+                            <input type="submit" class="btn login-btn" value="Вход">
+                            <div class="labels_passreg_text">
+                               <a class="reg_or_pass" href="#">Забыли пароль?</a><a class="reg_or_pass" href="#"> Регистрация</a>
+                            </div>
+                        </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span class="cur-date">26.09.2019</span>
+                    <p class="news-1">Мы запустили расширенный поиск!</p><br>
+                    <a class="reg_or_pass news-link" href="#">Читать</a>
+                </div>
+                <div class="sidebar">
+                    <h2>Рейтинг фильмов</h2>
+                    <ul>
+                        <li>
+                            <a href="rating.html">Интерстеллар</a><span class="rating_sidebar">8.1</span>
+                        </li>
+                        <li><a href="rating.html">Матрица</a><span class="rating_sidebar">8.0</span>
+                        </li>
+                        <li><a href="rating.html">Безумный Макс</a><span class="rating_sidebar">7.5</span>
+                        </li>
+                        <li><a href="#">Дедпул</a><span class="rating_sidebar">7.2</span>
+                        </li>
+                    </ul>
+                </div>          
+            </div>
+
+            <section class="main-content">
+                
+                <div class="info-film">
+                    <img src="assets/img/inter.png" alt="">
+                    <p>Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.</p>
+                    <div class="button"><a href="show.html">Смотреть</a></div>
+                </div>
+
+                <div class="info-film">
+                    <img src="assets/img/max.png" alt="">
+                    <p>Безумный Макс: Дороога ярости — постапокалиптический боевик австралийского режиссёра Джорджа Миллера, четвёртый фильм в серии фильмов о Максе Рокатански. Главную роль исполнил британский актёр Том Харди; в других ключевых ролях снялись Шарлиз Терон, Николас Холт и Хью Кияс-Бёрн.</p>
+                    <div class="button"><a href="#">Смотреть</a></div>
+                </div>
+
+                <div class="info-film">
+                    <img src="assets/img/matrix.png" alt="">
+                    <p>Если воздействовать на нюхательный нерв точно так же, как воздействует запах сирени, вы почувствуете запах сирени. То есть, в теории, если заменить все ощущения, ведущие на нервы, электронными аналогами, вы и не поймете, что, допустим, лежите в коконе и производите электричество для роботов. Вот и молодой хакер по погонялу Нео понятия не имеет, кто он на самом деле.</p>
+                    <div class="button"><a href="#">Смотреть</a></div>
+                </div>
+
+            </section>
+
+            
+        </div>
+
+        
+        <footer class="footer">
+            <p>
+                <a href="#">Главная</a><span class="symb">|</span>
+                <a href="#">Фильмы</a><span class="symb">|</span>
+                <a href="#">Сериалы</a><span class="symb">|</span>
+                <a href="#">Рейтинг фильмов</a><span class="symb">|</span>
+                <a href="#">Контакты</a>
+            </p>
+            <p>kinomonstr.com 2019</p>
+        </footer>
+    </div>
+
+</body>
+</html>
