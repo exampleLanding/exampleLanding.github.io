@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.header a, a:hover {
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 10px;
+    font-size: 350%;
+}
+
+.header p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a {
+    color: #fff;
+    background-color: #d6ab69 !important;
+}
+
+.nav-pills>li>a {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.nav-pills>li>a:hover {
+    background: #d6ab69;
+    transition: .1s ease;
+}
+
+.navbar-inverse {
+    padding: .1%;
+    border-radius: 0px;
+}
+
+@media (max-width: 767px) {
+
+    .nav-pills {
+        text-align: center;
+    }
+
+    .nav-pills li {
+        float: none;
+    }
+
+    .header h1 {
+        letter-spacing: 4px;
+        font-size: 280%;
+    }
+
+    .header {
+        margin-top: 1%;
+        text-align: center;
+    }
+}
+
+.wrapper {
+    min-height: 100%; /* Чтобы футер прижался к низу +html, body - height 100% */
+}
+
+.films_block {
+    text-align: center;
+}
+
+.films_block img {
+    margin-bottom: 5%;
+    border-radius: 3px;
+    border: solid 4px #d6ab69;
+    width: 100%;
+}
+
+.film_label {
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    font-size: 1.1em;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.text-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-content {
+    color: #222;
+    font-size: 1.1em;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+@media (max-width: 500px) {
+    .margin-8 {
+        padding-top: 20%;
+    }
+}
+
+.panel {
+    border: none;
+}
+
+.panel-body {
+    background: #f9f9f9;
+}
+
+.panel-info .panel-heading {
+    background: #f0ad4e;
+    color: #fff;
+    border-color: transparent;
+}
+
+.sidebar-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+.input-lg {
+    font-size: 14px;
+}
+
+.badge {
+    background: #222;
+}
+
+.info-block {
+    font-size: 120%;
+}
+
+.info-block .badge {
+    font-size: 80%;
+}
+
+.info-block span {
+    margin-right: 3%;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+.table tbody>tr>td.vert-align {
+    vertical-align: middle;
+}
+
+footer {
+    color: #666;
+    background: #222222;
+    padding: 1%;
+    border-top: 1px solid #000;
+}
+
+footer a {
+    color: #999;
+}
+
+footer a:hover {
+    color: #fff;
+}
